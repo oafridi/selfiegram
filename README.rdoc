@@ -1,0 +1,44 @@
+# Selfiegram
+
+## Requirements
+
+An instagram clone that allows for the following:
+Create a basic user (username and password at minimum)
+Allow for logging into the user
+Allow for uploading images
+Show a page of images a user has uploaded.
+Allow the user to share their page of images with another user.
+Write test coverage for your models and controllers
+
+Please put this code https://codesandbox.io/ and send us a link before the onsite interview.  We will review and discuss the code during the onsite interview including adding some functionality.
+
+### Resources
+User
+Image
+Page
+Post
+
+User has one page
+Image is attached to post
+User has many images
+Page has many images
+
+### Use cases
+User logs on to www.selfiegram/john and can view friends images
+User logs in with credentials and can upload/edit/delete own images
+User can grant access to another user
+
+* System dependencies
+Devise
+HAML
+Mysql
+
+
+* Ruby version
+
+* Configuration
+* Database creation
+* Database initialization
+* How to run the test suite
+* Services (job queues, cache servers, search engines, etc.)
+* Deployment instructions
